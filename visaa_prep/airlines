@@ -1,0 +1,9 @@
+import math
+n,m=map(int,input().split())
+x=n*100
+if x>=m:
+    print(0)
+else:
+    y=m-x
+    s=math.ceil(y/100)
+    print(s)
