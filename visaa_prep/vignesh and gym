@@ -1,0 +1,7 @@
+g,p,b=map(int,input().split(" "))
+if(b>=g+p):
+    print("2")
+elif(b<g):
+    print("0")
+else:
+    print("1")
