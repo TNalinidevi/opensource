@@ -1,0 +1,9 @@
+n=int(input())
+if n<0:
+    r=-int(str(abs(n))[::-1])
+else:
+    r=int(str(n)[::-1])
+if r<-2147483648 or r>2147483647:
+    print(0)
+else:
+    print(r)
