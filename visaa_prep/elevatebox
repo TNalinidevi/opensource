@@ -1,0 +1,9 @@
+n=int(input())
+arr=list(map(int,input().split()))
+b=[]
+for i in range(n):
+    ls=sum(arr[:i])
+    rs=sum(arr[i+1:])
+    d=abs(ls-rs)
+    b.append(d)
+print(" ".join(map(str,b)))
