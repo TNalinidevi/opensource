@@ -1,0 +1,8 @@
+n=input()
+arr=[]
+for i in n:
+    arr.append(i)
+if(arr[::]==arr[::-1]):
+    print("TRUE")
+else:
+    print("FALSE")
